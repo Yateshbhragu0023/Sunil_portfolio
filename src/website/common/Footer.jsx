@@ -110,6 +110,7 @@ export default function Footer() {
                             </div>
                         </div>
                     </div>
+                    
                 </div>
                 <div className=" relative border-t border-gray-300  mt-10 py-6 text-center text-sm">
                     © Copyright 2025 by <span className="text-orange-500 font-medium">WEB TH</span>
