@@ -6,7 +6,7 @@ import heroImg from "../../assets/IMG/image.png"
 export default function Hero() {
   return (
     <>
-      <section className="relative w-[85%] mx-auto overflow-hidden  py-12 md:py-20">
+      <section className="relative md:w-[85%] w-[95%] mx-auto overflow-hidden  py-12 md:py-20">
         <div className="container mx-auto px-4 flex flex-col md:flex-row items-center gap-10">
 
           {/* Left Content */}
@@ -37,11 +37,11 @@ export default function Hero() {
 
             {/* Buttons */}
             <div className="flex justify-center md:justify-start gap-4 mt-6">
-              <button className="bg-black text-white px-6 py-3 rounded-full flex items-center gap-2 hover:bg-orange-500 transition">
+              <button className="bg-black text-white md:px-6 px-6 md:py-3 py-0 rounded-full flex items-center gap-2 hover:bg-orange-500 transition">
                 Portfolio <FaArrowRight />
               </button>
               <a href="https://api.whatsapp.com/send?phone=917618471902" target='_blank'>
-                <button className="border border-black px-6 py-3 rounded-full hover:bg-orange-500 hover:text-white transition">
+                <button className="border border-black md:px-6 px-4 md:py-3 py-1 rounded-full hover:bg-orange-500 hover:text-white transition">
                   Contact Me
                 </button>
               </a>

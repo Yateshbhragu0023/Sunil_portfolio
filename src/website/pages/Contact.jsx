@@ -42,11 +42,11 @@ export default function Contact() {
     return (
         <>
             <section className="py-16 bg-gray-50" id='contact'>
-                <div className="w-[85%] mx-auto">
+                <div className="md:w-[85%] sm:w-[93%] w-[95%] mx-auto">
                     {/* Heading */}
                     <div className="text-center mb-12">
                         <p className="text-sm uppercase text-gray-500 tracking-wide">— Contact Me</p>
-                        <h2 className="text-3xl md:text-4xl font-bold mt-2">
+                        <h2 className="text-2xl md:text-4xl font-bold mt-2">
                             Let’s Talk about{" "}
                             <span className="text-orange-500">Your Life changing Journey</span>
                         </h2>
@@ -55,7 +55,7 @@ export default function Contact() {
                     {/* Grid Layout */}
                     <div className="grid lg:grid-cols-3 gap-8">
                         {/* Contact Form */}
-                        <div className="lg:col-span-2 bg-white p-6 rounded-xl shadow">
+                        <div className="lg:col-span-2 bg-white md:p-6 p-4 rounded-xl shadow">
                             <form className="grid md:grid-cols-2 gap-6" onSubmit={HandleForm}>
                                 {/* Name */}
                                 <div className="flex flex-col">
@@ -151,7 +151,7 @@ export default function Contact() {
                         </div>
 
                         {/* Info Card */}
-                        <div className="bg-black text-white rounded-xl shadow p-8 flex flex-col justify-between">
+                        <div className="bg-black text-white rounded-xl shadow md:p-8 sm:p-6 p-4 flex flex-col justify-between">
                             <div className="space-y-6">
                                 {/* Address */}
                                 <div>

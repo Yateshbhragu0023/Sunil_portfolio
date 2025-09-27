@@ -41,8 +41,8 @@ export default function Faq() {
 
   return (
     <>
-      <section className="py-16 px-4 bg-white" id='faq'>
-        <div className="w-[85%] mx-auto grid lg:grid-cols-3 gap-10">
+      <section className="py-16  bg-white" id='faq'>
+        <div className="md:w-[85%] sm:w-[93%] w-[95%] mx-auto grid lg:grid-cols-3 gap-10">
           {/* Left - FAQs */}
           <div className="lg:col-span-2">
             <div className="text-center mb-12">
@@ -57,14 +57,14 @@ export default function Faq() {
                 <div
                   key={index}
                   onClick={() => toggleFAQ(index)}
-                  className={`rounded-xl p-5 cursor-pointer border transition ${openIndex === index
+                  className={`rounded-xl md:p-5 p-3 cursor-pointer border transition ${openIndex === index
                     ? "bg-orange-500 text-white"
                     : "bg-gray-100 text-black"
                     }`}
                 >
                   {/* Question */}
                   <div className="flex justify-between items-center">
-                    <h3 className="font-medium text-lg">{faq.question}</h3>
+                    <h3 className="font-bold md:text-lg sm:text-lg text-sm">{faq.question}</h3>
                     {openIndex === index ? <FaMinus /> : <FaPlus />}
                   </div>
 
@@ -82,7 +82,7 @@ export default function Faq() {
           {/* Right - Info Cards */}
           <div className="space-y-6 md:mt-28 mt-5">
             {/* Contact Card */}
-            <div className="bg-black text-white rounded-xl p-8 shadow">
+            <div className="bg-black text-white rounded-xl md:p-8 sm:p-6 p-5  shadow">
               <div className="flex items-center gap-3 mb-4">
                 <span className="text-2xl">💬</span>
                 <h4 className="text-xl font-semibold">You have different questions?</h4>
@@ -98,7 +98,7 @@ export default function Faq() {
             </div>
 
             {/* Availability Card */}
-            <div className="bg-gray-100 rounded-xl p-6 flex items-start gap-4 shadow">
+            <div className="bg-gray-100 rounded-xl md:p-6 p-4 flex items-start gap-4 shadow">
               <div className="text-orange-500 text-2xl"><FaPhone/></div>
               <div>
                 <p className="font-semibold text-black">Your Vision, My Craft</p>

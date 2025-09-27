@@ -37,7 +37,7 @@ export default function Slider() {
     ];
 
     return (
-        <div className="w-[85%]  mx-auto bg-white rounded-[50px] py-10 relative">
+        <div className="md:w-[85%] w-[95%] sm:w-[93%]  mx-auto bg-white rounded-[50px] py-10 relative">
             <div className="text-center mb-10">
                 <h2 className="text-3xl font-bold">
                     <p className="text-gray-500 mt-2 text-sm uppercase tracking-wide">

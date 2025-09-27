@@ -7,17 +7,17 @@ export default function Education() {
         {
             title: "Inter Colege",
             subtitle: "Complete 12th standard",
-            year: "2014 – 2015",
+            year: "2014 –2015",
         },
         {
             title: "Mahi International",
             subtitle: "Bachelor in  Arts",
-            year: "2016 – 2019",
+            year: "2016 –2019",
         },
         {
             title: "Masters in Sales",
             subtitle: "JNU Jaipur",
-            year: "2019 – 2022",
+            year: "2019 –2022",
         },
     ];
 
@@ -42,7 +42,7 @@ export default function Education() {
 
     return (
         <>
-            <section className="py-16 px-4 w-[85%] mx-auto" id='work'>
+            <section className="py-16  md:w-[85%] w-[95%] mx-auto" id='work'>
                 {/* Section Heading */}
                 <div className="text-center mb-10">
                     <h2 className="text-3xl font-bold">
@@ -64,12 +64,12 @@ export default function Education() {
                         </div>
                         <ul className="space-y-7">
                             {education.map((item, idx) => (
-                                <li key={idx} className="flex justify-between items-center">
+                                <li key={idx} className="flex justify-between  items-center">
                                     <div>
                                         <h4 className="font-medium md:text-xl text-lg">{item.title}</h4>
                                         <p className="md:text-lg text-sm text-gray-500">{item.subtitle}</p>
                                     </div>
-                                    <span className="bg-black text-white text-xs  font-semibold md:px-4 px-3  md:py-3 py-2 rounded-full">
+                                    <span className="bg-black text-white text-xs  font-semibold md:px-4 px-2  md:py-3 py-2 rounded-full">
                                         {item.year}
                                     </span>
                                 </li>

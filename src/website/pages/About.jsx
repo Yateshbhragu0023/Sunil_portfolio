@@ -6,7 +6,7 @@ export default function About() {
   return (
     <>
       <section className="bg-white py-12 " id='about'>
-        <div className="w-[85%] mx-auto grid grid-cols-1 md:grid-cols-2 items-center gap-10">
+        <div className="md:w-[85%] sm:w-[93%] w-[95%] mx-auto grid grid-cols-1 md:grid-cols-2 items-center gap-10">
 
           {/* Left Side - Image */}
           <div className="relative flex justify-center">
