@@ -6,7 +6,7 @@ import heroImg from "../../assets/IMG/image.png"
 export default function Hero() {
   return (
     <>
-      <section className="relative md:w-[85%] w-[95%] mx-auto overflow-hidden  py-12 md:py-20">
+      <section className="relative md:w-[85%] w-[95%] mx-auto overflow-hidden md:mt-20 sm:mt-20 mt-14 py-12 md:py-15">
         <div className="container mx-auto px-4 flex flex-col md:flex-row items-center gap-10">
 
           {/* Left Content */}

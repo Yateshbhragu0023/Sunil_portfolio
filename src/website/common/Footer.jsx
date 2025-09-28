@@ -115,7 +115,7 @@ export default function Footer() {
                 <div className=" relative border-t border-gray-300  mt-10 py-6 text-center text-sm">
                     © Copyright 2025 by <span className="text-orange-500 font-medium">WEB TH</span>
                     <div >
-                        <div onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })} className='hidden md:block fixed bottom-5 right-4 md:right-10  cursor-pointer bg-orange-600  p-2 md:p-4 text-white text-sm md:text-xl rounded-full' >
+                        <div onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })} className='z-[99] fixed bottom-5 right-4 md:right-10  cursor-pointer bg-orange-600  p-2 md:p-4 text-white text-sm md:text-xl rounded-full' >
                             <FaChevronUp />
                         </div>
                     </div>

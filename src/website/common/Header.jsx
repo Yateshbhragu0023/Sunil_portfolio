@@ -37,7 +37,7 @@ export default function Header() {
 
 
     return (
-        <div className='pt-5 bg-gray-50 items-center sticky top-0 left-0 z-50 '>
+        <div className='pt-5 bg-gray-50 items-center w-full fixed top-0 left-0 z-50 '>
             <div className='px-3 shadow-lg w-[85%] bg-white mx-auto  text-black rounded-full py-2' >
                 <div className='flex justify-between'>
                     {/* logo */}
